@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Primary: #ff6464;
+  --Secondary: #00abcc;
+  --Dark: #21243d;
+  --Ligh: #8695a4;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}

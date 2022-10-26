@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Registration Page</title>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <h2>Set up your account</h2>
+                <form action="./html/login.html">
+                    <label for="firstname"
+                        >First Name:<input
+                            type="text"
+                            name="firstname"
+                            id="firstname"
+                            placeholder="John"
+                            required
+                    /></label>
+                    <label for="lastname"
+                        >Last Name:<input
+                            type="text"
+                            name="lastname"
+                            id="lastname"
+                            placeholder="Doe"
+                            required
+                    /></label>
+                    <label for="phone-number"
+                        >Phone Number:
+                        <input
+                            type="number"
+                            name="phone-number"
+                            id="phone-number"
+                            placeholder="+234xxxxxxxxxx"
+                    /></label>
+                    <label for="email"
+                        >Email<input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="yourmail@example.com"
+                    /></label>
+                    <label class="gender-label" for="gender">Gender</label>
+                    <label class="gender" for="male"
+                        ><input
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            value="male"
+                        />Male</label
+                    >
+                    <label class="gender" for="female"
+                        ><input
+                            type="radio"
+                            name="gender"
+                            id="female"
+                            value="female"
+                        />Female</label
+                    >
+                    <label for="dob"
+                        >Date of Birth<input type="date" name="dob" id="dob"
+                    /></label>
+                    <label for="favourite-color"
+                        >Favorite Color
+                        <input type="color" name="color" id="favourite-color"
+                    /></label>
+                    <label for="password"
+                        >Password
+                        <input type="password" name="password" id="password"
+                    /></label>
+                    <input type="submit" value="Sign Up" />
+                </form>
+                <div class="line"></div>
+                <p class="signup">
+                    Already have an account? <a href="./html/login.html">Sign in</a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>

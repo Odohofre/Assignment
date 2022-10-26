@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08080b;
+    color: #fff;
+}
+
+#container {
+    width: 975px;
+    height: 1000px;
+    background-color: #242424;
+    padding: 40px 180px;
+    margin-top: 10px;
+}
+
+#container h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    padding-top: 3.6px;
+}
+
+form {
+    padding: 10px 0 30px;
+}
+
+label {
+    display: block;
+    margin: 0.8rem 0;
+}
+
+input {
+    display: block;
+    width: 400px;
+    height: 48px;
+    border: 1px solid #3d3d3d;
+    background-color: #242424;
+    border-radius: 4px;
+    padding: 12px 0 12px 15px;
+    margin-top: 2px;
+    color: #fff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.gender-label {
+    margin-bottom: 0px;
+}
+input[type="radio"] {
+    display: inline-block;
+    width: unset;
+    height: unset;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+.gender {
+    margin: 0;
+}
+
+::placeholder {
+    color: #7f7f7f;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+input[type="color"],
+input[type="date"] {
+    width: 250px;
+    padding: 8px 15px;
+}
+
+input[type="date"] {
+    font-family: inherit;
+}
+
+input:hover {
+    border: 1px solid #4b72c2;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 48px;
+    background-color: #4b72c2;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 12px 16px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    background-color: #3d3d3d;
+    margin: 0 0 30px;
+}
+
+.signup {
+    font-size: 1rem;
+}
+
+.signup a {
+    font-size: 1rem;
+    color: #4b72c2;
+    text-decoration: none;
+}
