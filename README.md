@@ -1,8 +1,19 @@
-# WEEK 4 PROJECT
+# WEEK 4 task - CSS cont
 
 ## Description
 
 - This project involves the use of Flexbox and Grid layout to build responsive websites
+
+## Images
+
+# Task a
+
+![Desktop View](./screenshot/desktop-view.png)
+![Mobile View](./screenshot/mobile-view.png)
+
+# Task b
+
+![Desktop View](./screenshot/desktop-view-b.png)
 
 ## Built with
 
